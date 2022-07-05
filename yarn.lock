@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@3rdweb/chain-icons/-/chain-icons-1.0.1.tgz#00ade9274dc87488c59248350981f300d4a9d912"
   integrity sha512-573b0CmKwi9Vf8ETRjNX8VzSqc9s1cwMu5pw7yUI2YTuBimgd15Hu/prnfyZ5efrIZUPDCJVaqNAc6v3fuGmzA==
 
-"@3rdweb/contracts@^1.21.1":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@3rdweb/contracts/-/contracts-1.23.0.tgz#70de579c7953bc92c488cf33d8c4a21a352c248f"
-  integrity sha512-U/nNZC7abJw20tg/7cNba8uYiqcznc1oUvcxV/lkdOk2rEtqeuGkndgTH1+UzUykgzPdlDc4mrapKPB2J/cwKg==
+"@3rdweb/contracts@1.26.2":
+  version "1.26.2"
+  resolved "https://registry.yarnpkg.com/@3rdweb/contracts/-/contracts-1.26.2.tgz#36f91f58265c668a47afbd077f566905587d5811"
+  integrity sha512-h/nwiH9nVHRgB+PYiLc5MLsas8TR0x/jPKI9a6wsSqFsGry/w/1MsN1HYplZR6i5j5LC+WomXNX7tjRyjGHoog==
 
 "@3rdweb/hooks@^1.4.0", "@3rdweb/hooks@^1.8.0":
   version "1.8.0"
@@ -29,12 +29,12 @@
     regenerator-runtime "^0.13.9"
     tiny-invariant "^1.2.0"
 
-"@3rdweb/sdk@^1.36.11":
-  version "1.36.11"
-  resolved "https://registry.yarnpkg.com/@3rdweb/sdk/-/sdk-1.36.11.tgz#dc4be584567c97c70b352bb5e9595b7141a9a9a3"
-  integrity sha512-zB4OcWsL57Nj8i1tXlrzkgQfFPF2+90wIJRKYFm7E0GWddJYSVPztDxFVSAbud8Hecbl4rGV1E+I26EiFRtN5w==
+"@3rdweb/sdk@^1.42.1":
+  version "1.42.1"
+  resolved "https://registry.yarnpkg.com/@3rdweb/sdk/-/sdk-1.42.1.tgz#6cdac9a79bc6805ee8ecc37bc4e148437b9740da"
+  integrity sha512-gMdBbtm/+SC1c/ZorkH67+4+aaR3LuR0Q89uEsQ4uyDXrFlqp76O+cxUCvn+fomfj5SKBPueEyVCrvh2RdKA7Q==
   dependencies:
-    "@3rdweb/contracts" "^1.21.1"
+    "@3rdweb/contracts" "1.26.2"
     "@ethersproject/bignumber" "^5.5.0"
     "@ethersproject/bytes" "^5.4.0"
     "@ethersproject/constants" "^5.5.0"
@@ -44,7 +44,6 @@
     "@web-std/file" "^3.0.0"
     browser-or-node "^2.0.0"
     crypto-js "^4.1.1"
-    eth-permit "^0.2.1"
     ethers "^5.5.2"
     eventemitter2 "^6.4.5"
     events "^3.3.0"
@@ -1889,13 +1888,6 @@ eth-json-rpc-middleware@^6.0.0:
     pify "^3.0.0"
     safe-event-emitter "^1.0.1"
 
-eth-permit@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/eth-permit/-/eth-permit-0.2.1.tgz#360bbf33bfeb70ad212e9cfa820370e8f827bdff"
-  integrity sha512-+a91Il8JDsKXnib6a5CWEwBc9OOR93IYM1GRGlcnEa+NwMHkWLg4P8lyEHnUmoMVfjutoQTz8wnEWr5Y+k3QOQ==
-  dependencies:
-    utf8 "^3.0.0"
-
 eth-query@^2.1.0, eth-query@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/eth-query/-/eth-query-2.1.2.tgz#d6741d9000106b51510c72db92d6365456a6da5e"
@@ -3177,10 +3169,10 @@ react-hot-toast@^2.2.0:
   dependencies:
     goober "^2.1.1"
 
-react-icons@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.3.1.tgz#2fa92aebbbc71f43d2db2ed1aed07361124e91ca"
-  integrity sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==
+react-icons@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.4.0.tgz#a13a8a20c254854e1ec9aecef28a95cdf24ef703"
+  integrity sha512-fSbvHeVYo/B5/L4VhB7sBA1i2tS8MkT0Hb9t2H1AVPkwGfVHLJCqyr2Py9dKMxsyM63Eng1GkdZfbWj+Fmv8Rg==
 
 react-is@17.0.2:
   version "17.0.2"
@@ -3681,7 +3673,7 @@ use-subscription@1.5.1:
   dependencies:
     object-assign "^4.1.1"
 
-utf8@3.0.0, utf8@^3.0.0:
+utf8@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/utf8/-/utf8-3.0.0.tgz#f052eed1364d696e769ef058b183df88c87f69d1"
   integrity sha512-E8VjFIQ/TyQgp+TZfS6l8yp/xWppSAHzidGiRrqe4bK4XP9pTRyKFgGJpO3SN7zdX4DeomTrwaseCHovfpFcqQ==

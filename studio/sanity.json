@@ -1,11 +1,11 @@
 {
   "root": true,
+  "api": {
+    "projectId": "rdv8uglu",
+    "dataset": "production"
+  },
   "project": {
     "name": "opensea-blockchain-clone"
-  },
-  "api": {
-    "projectId": "6gt65pn7",
-    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
